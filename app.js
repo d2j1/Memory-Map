@@ -14,7 +14,7 @@ var num1 = 0,
     num4 = 0,
     num5 = 0,
     a;
-for (var i = 0; i < 60; i++) {
+for (var i = 0; i < 70; i++) {
     ctct++;
     if (images.length < 21) {
         a = Math.floor(Math.random() * 6);
