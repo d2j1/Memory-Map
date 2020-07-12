@@ -165,7 +165,7 @@ function takeInput(temp) {
                     Score += 100;
                     upadate_score.innerHTML = Score;
                     temparray = [];
-                    console.log("you win" + Score);
+                    
                 } else {
 
                     closeImage(temparray[0].key);
@@ -173,7 +173,7 @@ function takeInput(temp) {
                     closeImage(temparray[2].key);
                     closeImage(temparray[3].key);
                     temparray = [];
-                    console.log("unfortunately you loose your score was" + Score);
+                    
                 }
             }
         }, 2000);
